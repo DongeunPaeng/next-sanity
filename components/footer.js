@@ -18,7 +18,7 @@ export default function Footer() {
             </a>
             <a
               target="_blank"
-              href={"https://github.com/dongeunpaeng"}
+              href={"https://github.com/DongeunPaeng/next-sanity"}
               className="mx-3 font-bold hover:underline"
             >
               GitHub 구경하기
