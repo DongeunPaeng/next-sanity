@@ -10,8 +10,8 @@ export default function Alert({ preview }) {
       })}
     >
       <Container>
-        <div className="py-2 text-center text-sm">
-          {preview && (
+        {preview && (
+          <div className="py-2 text-center text-sm">
             <>
               This page is a preview.{" "}
               <a
@@ -22,8 +22,8 @@ export default function Alert({ preview }) {
               </a>{" "}
               to exit preview mode.
             </>
-          )}
-        </div>
+          </div>
+        )}
       </Container>
     </div>
   );
