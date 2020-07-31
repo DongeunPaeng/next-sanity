@@ -33,6 +33,9 @@ export default function Meta() {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta property="og:title" content="Dongeun's Blog" />
+      <meta property="og:url" content="https://dongeun.co" />
+      <meta property="og:description" content="블로그 방문을 환영합니다 :)" />
     </Head>
   );
 }
