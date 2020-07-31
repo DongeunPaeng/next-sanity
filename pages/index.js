@@ -12,7 +12,7 @@ export default function Index({ allPosts, preview }) {
     <>
       <Layout preview={preview}>
         <Container>
-          {/*<Intro />*/}
+          <Intro />
           {heroPost && (
             <HeroPost
               title={heroPost.title}
